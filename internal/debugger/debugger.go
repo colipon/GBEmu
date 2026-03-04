@@ -15,8 +15,8 @@ import (
 	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
 	"github.com/hajimehoshi/ebiten/v2/inpututil"
 
-	"github.com/user/gbemu/internal/cpu"
-	"github.com/user/gbemu/internal/mmu"
+	"github.com/colipon/gbemu/internal/cpu"
+	"github.com/colipon/gbemu/internal/mmu"
 )
 
 // Tab indices
