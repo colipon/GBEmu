@@ -72,7 +72,7 @@ func (d *Debugger) drawOAM(screen *ebiten.Image, startY int) {
 	printAt(screen, hint, 0, WinH-charH-padding, colDim)
 }
 
-func (d *Debugger) drawSpritePreview(screen *ebiten.Image, x, y, tileNum int, attr byte, sprH int) {
+func (d *Debugger) drawSpritePreview(screen *ebiten.Image, x, y int, tileNum byte, attr byte, sprH int) {
 	zoom := 4
 	flipX := attr&0x20 != 0
 	flipY := attr&0x40 != 0

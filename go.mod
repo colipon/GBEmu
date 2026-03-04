@@ -1,4 +1,4 @@
-module github.com/user/gbemu
+module github.com/colipon/gbemu
 
 go 1.21
 

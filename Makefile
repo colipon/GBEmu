@@ -1,5 +1,5 @@
-BIN := gbemu
-PKG := ./cmd/gbemu
+BIN := GBEmu
+PKG := ./cmd/GBEmu
 
 .PHONY: build run tidy clean
 
@@ -18,7 +18,7 @@ clean:
 # Build a WebAssembly version (playable in browser, no desktop needed)
 wasm:
 	GOOS=js GOARCH=wasm go build -o web/gbemu.wasm $(PKG)
-	cp "$$(go env GOROOT)/misc/wasm/wasm_exec.js" web/
+	cp "$$(go env GOROOT)/lib/wasm/wasm_exec.js" web/
 
 # Check that all packages compile
 check:
