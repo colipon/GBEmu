@@ -1,4 +1,19 @@
 # 🎮 gbemu — Game Boy Emulator in Go
+> [!WARNING]
+> **DO NOT download illegal ROMs from the internet.**  
+> Only use ROMs dumped from cartridges you legally own.  
+> Downloading or distributing ROMs without authorization is illegal and a violation of copyright law.  
+> このエミュレータを使用する際は、**自分が所有するカートリッジから吸い出したROMのみ**を使用してください。  
+> 違法なROMのダウンロード・配布は著作権法違反です。  
+
+> [!CAUTION]
+> **免責事項 / Disclaimer**  
+> 本ソフトウェアは「現状のまま（AS IS）」で提供されます。  
+> 作者はこのエミュレータの使用によって生じたいかなる損害・トラブル・法的問題についても、  
+> 一切の責任を負いません。使用は自己責任でお願いします。  
+> This software is provided "as is", without warranty of any kind.  
+> The author takes no responsibility for any damage, trouble,  
+> or legal issues arising from the use of this emulator. Use at your own risk.
 
 A Game Boy (DMG) emulator written in Go, using [Ebitengine](https://ebitengine.org/) for rendering.
 
@@ -33,7 +48,6 @@ ROM=path/to/game.gb make run
 5. The game window will appear on the virtual desktop. Enjoy!
 
 > **No ROM?** Try the open-source test ROMs from [gbdev/gb-test-roms](https://github.com/gbdev/gb-test-roms).
-
 ---
 
 ## Controls
