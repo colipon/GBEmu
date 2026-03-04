@@ -1,6 +1,6 @@
 package timer
 
-import "github.com/user/gbemu/internal/mmu"
+import "github.com/colipon/gbemu/internal/mmu"
 
 // Timer implements the Game Boy timer hardware
 type Timer struct {
