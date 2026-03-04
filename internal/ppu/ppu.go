@@ -4,8 +4,8 @@ import (
 	"image/color"
 
 	"github.com/hajimehoshi/ebiten/v2"
-	"github.com/user/gbemu/internal/mmu"
-	"github.com/user/gbemu/internal/sgb"
+	"github.com/colipon/gbemu/internal/mmu"
+	"github.com/colipon/gbemu/internal/sgb"
 )
 
 const (
