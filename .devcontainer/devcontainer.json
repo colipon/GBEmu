@@ -1,6 +1,6 @@
 {
   "name": "gbemu",
-  "image": "mcr.microsoft.com/devcontainers/go:1.21",
+  "image": "mcr.microsoft.com/devcontainers/go:1-bookworm",
   "features": {
     "ghcr.io/devcontainers/features/desktop-lite:1": {
       "version": "latest",
@@ -10,6 +10,7 @@
       "vncPort": "5901"
     }
   },
+  "onCreateCommand": "sudo rm -f /etc/apt/sources.list.d/yarn.list /usr/share/keyrings/yarnkey.gpg && sudo apt-get update || true",
   "forwardPorts": [6080],
   "portsAttributes": {
     "6080": {
