@@ -1,7 +1,7 @@
 package mmu
 
 import (
-	"github.com/user/gbemu/internal/cartridge"
+	"github.com/colipon/gbemu/internal/cartridge"
 )
 
 // Interrupt flag bits
